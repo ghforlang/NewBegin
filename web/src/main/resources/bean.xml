@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+    <bean id = "userDao" class="cn.edu.nbu.biz.user.dao.UserDaoImpl" />
+    <bean id = "user3Dao" class="cn.edu.nbu.biz.user.dao.UserDao3Impl" />
+    <bean id = "user2Dao" class="cn.edu.nbu.biz.user.dao.UserDao2Impl" />
+    <bean id = "userService" class = "cn.edu.nbu.biz.user.impl.UserServiceImpl" />
+</beans>
